@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Mon profil</title>
+ <style>
+ 
+ body {
+  font-family: Cambria;
+  align-items: center;
+ }
+ 
+ .barre {
+  border-bottom: 1px solid rgba(200, 200, 200, 1);
+  height: 50px;
+ }
+  .barre text{
+  font-family: Cambria, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 140px;
+
+ }
+ 
+ .image {
+  background: rgba(200, 200, 200, 1);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 130px;
+  top: 50px;
+  border-radius: 50%;
+  align-self: center;
+ }
+ 
+ .image img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+ }
+ 
+ pseudo {
+  position: relative;
+  font-weight: bold;
+  top: 70px;
+  left: 110px;
+  font-size: 25px;
+ }
+ 
+ titre {
+  position: relative;
+  top: 100px;
+  right: 30px;
+  font-size: 15px;
+  color: rgba(0, 0, 309, 0.7);
+  font-weight: bold;
+ }
+ 
+ local {
+  color: rgba(200, 200, 200, 1);
+  font-size: 10px;
+  position: relative;
+  top: 120px;
+  right: 150px;
+ }
+ 
+ .ex{
+  border-right:1px solid rgba(200, 200, 200, 1);
+  padding: 10px;
+  width: 100px;
+  position: relative;
+  top: 150px;
+  display: flex ;
+  text-align: center;
+ }
+ 
+ .pro{
+  border-right:1px solid rgba(200, 200, 200, 1);
+  padding: 10px;
+  width: 100px;
+  position: relative;
+  top: 70px;
+  display: flex ;
+  left: 100px;}
+ 
+ 
+
+ .ex text {
+  font-weight: bold;
+  margin-left: 50px;
+  position: relative;
+  
+ }
+ 
+ .ex label {
+  margin-top: 30px;
+  position: relative;
+  right: 30px;
+  font-size: 13px;
+  color: rgba(200, 200, 200, 1);
+ }
+ 
+ .cli{
+  padding: 10px;
+  width: 100px;
+  position: relative;
+  bottom: 10px;
+  display: flex ;
+  text-align: center;
+  left: 200px;}
+ 
+ .pro text {
+  margin-top: 1px;
+  font-weight: bold;
+  margin-left: 50px;
+  position: relative;
+ 
+  
+ }
+ 
+ .pro label {
+  margin-top: 40px;
+  position: relative;
+  margin-right: 20px;
+  right: 30px;
+  font-size: 13px;
+  color: rgba(200, 200, 200, 1);
+ }
+ 
+ .cli text {
+  margin-top: 1px;
+  font-weight: bold;
+  margin-left: 50px;
+  position: relative;
+ 
+  
+ }
+ 
+ .cli label {
+  margin-top: 40px;
+  position: relative;
+  margin-right: 20px;
+  right: 30px;
+  font-size: 13px;
+  color: rgba(200, 200, 200, 1);
+ }
+ 
+ info {
+  position: relative;
+  font-weight: bold;
+  left: 30px;
+  top: 40px;
+ }
+ 
+ p {
+  position: relative;
+  left: 30px;
+  top: 50px;
+  font-size: 13px;
+  color: rgba(100, 100, 100, 1);
+  margin-right: 30px;
+ }
+ 
+ .lien a{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+ 
+
+ }
+ 
+ .lien a img{
+  position: relative;
+  top: 80px;
+  border-radius: 10px;
+  width: 70px;
+  margin-left: 20px;
+  height: 70px;
+  left: 30px;
+ }
+ 
+ mot {
+  font-weight: bold;
+  position: relative;
+  top: 130px;
+  left: 30px;
+ }
+ 
+ c {
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+  top: 200px;
+  right: 80px;
+ 
+ }
+ 
+ .c {
+  width: 300px;
+  height: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 220px;
+  left: 30px;
+  margin-bottom: 100px;
+  background: linear-gradient(135deg, yellow, blue);
+ }
+ 
+ l {
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+  top: 170px;
+  left: 30px;
+  color: black;
+ 
+ }
+ 
+ .l {
+  width: 300px;
+  height: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  margin-bottom: 100px;
+  background: rgba(250, 0, 0, 1);
+ }
+ 
+ m {
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+  top: 170px;
+  left: 30px;
+  color: black;
+ 
+ }
+ 
+ .m {
+  width: 300px;
+  height: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  margin-bottom: 100px;
+  background: rgba(0, 0, 178, 1);
+ }
+ 
+ j {
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+  top: 170px;
+  left: 30px;
+  color: black;
+ 
+ }
+ 
+ .j {
+  width: 300px;
+  height: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  margin-bottom: 100px;
+  background: rgba(220, 220, 0, 1);
+ }
+ 
+ .barb {
+  border-top: 2px solid rgba(200, 200, 200, 1);
+  width: 346px;
+  height: 50px;
+  position: relative;
+  top: 200px;
+  margin-top: 50px;
+  padding: 15px;
+  padding-top: -20px;
+ }
+ 
+.barb a {
+  position: relative;
+  top: 10px;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  background: #14B8A6;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+  
+  color: white;
+  margin-top: 20px;
+ }
+ 
+ 
+ 
+ </style>
+ </head>
+ 
+ <body>
+  <div class="barre">
+   <text>Mon profil</text>
+  </div>
+  
+  <div class="image">
+   <img src="profil.png">
+  </div>
+  <pseudo>ExauChrist</pseudo>
+  <titre>Développeur web & mobil</titre>
+  <local> Cotonou, Bénin </local>
+  
+  <div class="ex">
+   <text>2+</text>
+   <label>Année d'exp.</label>
+   
+  </div>
+  
+  
+  <div class="pro">
+   <text>09</text>
+   <label>projets</label>
+  </div>
+  
+  <div class="cli">
+   <text>05</text>
+   <label>Clients</label>
+  </div>
+  
+  <info>A propos</info>
+  <p>Développeur passionnée créant des expériences numérique. Specialisé dans l'écosystème python (Customtkinter & kivy) et le développement mobile. Specialisé dans la création de site web et d'applis desktop.</p>
+  
+  <div class="lien">
+   <a><img src="fb.png"></a>
+   <a><img src="fb.png"></a>
+   <a><img src="fb.png"></a>
+  </div>
+  
+  <mot>Compétences</mot>
+  <c>Python</c>
+  <div class="c">
+  </div>
+  
+  <l>HTML</l>
+  <div class="l">
+   
+  </div>
+  
+  <m>CSS</m>
+  <div class="m">
+   
+  </div>
+  
+  <j>JavaScript</j>
+  <div class="j">
+   
+  </div>
+  
+  <div class="barb">
+  <a href="index.html">Accueil</a>
+  <a href="projet.html">Projet</a>
+  <a href="profil.html">Profil</a>
+  <a href="contact.html">Contact</a>
+ </div>
+ 
+  
+ </body>
+</html>
