@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Accueil</title>
+ <style>
+ 
+ 
+ body{
+  font-family: Cambria;
+   justify-content: center;
+   margin: 0;
+   background: white;
+   
+  }
+  
+ .barre{
+   width: 100%;
+   display: flex;
+   
+  }
+  
+ .barre text{
+  font-family: Cambria, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 20px;
+
+ }
+ 
+ .barre input{
+  position: relative;
+  left: 300px;
+  top: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+ }
+  
+ .tout {
+  position: relative;
+  
+  top: 100px;
+  margin-left: 20px;
+  width: 350px;
+  border-radius: 10px;
+  background: rgba(200, 200, 200, 1);
+  height: 400px;
+ }
+
+.tout .image{
+ width: 90px;
+ height: 90px;
+ background: white;
+ box-shadow: 1px 10px 10px black;
+ position: absolute;
+ margin-top: 50px;
+ margin-left: 110px;
+ border-radius: 50%;
+ padding: 10px;
+ justify-content: center;
+}
+
+.tout .image img{
+ width: 100%;
+ height: 100%;
+}
+
+.tout pseudo {
+ position: relative;
+ top: 190px;
+ left: 110px;
+ font-family: Cambria, sans-serif;
+ font-weight: bold;
+ font-size: 25px;
+ color: #1F2937;
+ 
+}
+
+.tout titre {
+ position: relative;
+ top: 230px;
+ right: 40px;
+ font-family: Cambria;
+ font-family: Cambria;
+ font-size: 14px;
+ color: #6B7380;
+ 
+ 
+}
+
+.tout p{
+ position: relative;
+ top: 235px;
+ left: 55px;
+ margin-right: 100px;
+ font-family: Cambria, sans-serif;
+ font-size: 13px;
+ color: black;
+ text-align: center;
+ margin-bottom: 20px;
+ 
+}
+.contact {
+ width: 200px;
+}
+.contact a{
+ position: relative;
+ padding: 20px;
+ background: #14B8A6;
+ color: white;
+ font-size: 13px;
+ top: 140px;
+ text-decoration: none;
+ border-radius: 10px;
+ left: 23px;
+}
+
+a{
+ background: #F3F4F6;
+ position: relative;
+ padding: 20px;
+ color: white;
+ font-size: 13px;
+ top: 115px;
+ text-decoration: none;
+ border-radius: 10px;
+ left: 230px;
+}
+
+tex {
+ font-family: Cambria, sans-serif;
+ right: 110px;
+ position: relative;
+ font-size: 20px;
+ font-weight: bold;
+ top: 240px;}
+ 
+.rond {
+ background: black;
+ border: 20px 40px 20px 10px;
+}
+
+.comp {
+ position: relative;
+ top: 300px;
+ right: 1px;
+ width: 100%;
+ display: flex
+}
+
+.comp label {
+ padding: 10px;
+ color: white;
+ font-family: Cambria, sans-serif;
+ background: #E9D9Bd;
+ margin-left: 20px;
+ top: 180px;
+ text-decoration: none;
+ border-radius: 10px;
+ left: 230px;
+ 
+}
+
+.compo {
+ position: relative;
+ top: 320px;
+ right: 1px;
+ width: 100%;
+display: flex
+}
+
+.compo label {
+ padding: 10px;
+ color: white;
+ font-family: Cambria, sans-serif;
+ background: #E9D9Bd;
+ margin-left: 20px;
+ top: 180px;
+ text-decoration: none;
+ border-radius: 10px;
+ left: 230px;
+ 
+}
+
+te {
+ font-family: Cambria, sans-serif;
+ left: 20px;
+ position: relative;
+ font-size: 20px;
+ font-weight: bold;
+ top: 400px;
+}
+
+.po{
+ position: relative;
+ top: 430px;
+ left: 20px;
+ border-radius: 10px;
+ margin-bottom: 10px;
+ width: 350px;
+ height: 320px;
+ background-image: url("youtubeo.jpg");
+ background-size: cover;
+ background-position: center;}
+ 
+ .po text{
+  
+  position: relative;
+  padding: 10px;
+  color: #14B8A6;
+  background : rgba(200, 200, 200, 0.4);
+  font-size: 13px;
+  top: 230px;
+  text-decoration: none;
+  border-radius: 10px;
+  left: 23px;
+  
+ }
+ 
+ .po label{
+  position: relative;
+  top: 230px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  left: 100px;
+  
+ }
+ 
+ .po p{
+  position: relative;
+  top: 240px;
+  font-size: 12px;
+  color: white;
+  left: 10px;
+
+  
+ }
+ 
+ .pt{
+ position: relative;
+ top: 430px;
+ left: 20px;
+ border-radius: 10px;
+ margin-bottom: 10px;
+ width: 350px;
+ height: 320px;
+ background-image: url("youtubeo.jpg");
+ background-size: cover;
+ background-position: center;}
+ 
+ .pt text{
+  
+  position: relative;
+  padding: 10px;
+  color: #14B8A6;
+  background : rgba(200, 200, 200, 0.4);
+  font-size: 13px;
+  top: 230px;
+  text-decoration: none;
+  border-radius: 10px;
+  left: 23px;
+  
+ }
+ 
+ .pt label{
+  position: relative;
+  top: 230px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  left: 140px;
+  
+ }
+ 
+ .pt p{
+  position: relative;
+  top: 250px;
+  font-size: 12px;
+  color: white;
+  left: 10px;
+
+  
+ }
+ 
+ button {
+  position: relative;
+  top: 600px;
+  width: 100px;
+  height: 100px;
+ }
+ 
+.barb {
+  background: #2c3e70;
+  border-top: 1px solid rgba(200, 200, 200, 1);
+  width: 346px;
+  height: 50px;
+  margin-top: 500px;
+  padding: 15px;
+  padding-bottom: 10px;
+ }
+ 
+.barb a {
+  left: -1px;
+  top: 10px;
+  right: 0px;
+  bottom: 20px;
+  background: #14B8A6;
+ }
+  
+  @media (max-width: 767px){
+   
+  }
+ </style>
+</head>
+
+<body id="body">
+ <div class="rond">
+ </div>
+ <div class="barre">
+  <text>ExauChrist.dev</text>
+  <input type="checkbox" id="ipt">
+ </div>
+ <div class="tout">
+  <div class="image">
+   <img src="profil.png">
+  </div>
+  <pseudo id="ps">ExauChrist</pseudo>
+  <titre>Développeur Web Fullstack</titre>
+  <p>Je crée des esperiences numériques modernes et performante. Transformons vos idées en réalité.</p>
+ </div>
+ <div class="contact">
+  <a href="mailto: olaezose@gmail.com">Me contacter 📃</a>
+ </div>
+ <a href="">Allo</a>
+ <a href="">Allo</a>
+ 
+ 
+ <tex id="tex">Compétences</tex>
+ <div class="comp">
+  <label id="l">Customtkinter</label>
+  <label id="l">pySide6</label>
+  <label id=l>html</label>
+ </div>
+ <div class="compo">
+  <label id="l">Css</label>
+  <label id="l">JavaScript</label>
+  <label id="l">Flutter</label>
+ </div>
+ 
+ <te id="te">Projets Récents</te>
+ <div class="po">
+  <text>Customtkinter</text>
+  <label>App Desktop</label>
+  <p>Application pour ordinateur, automatisation de lien site</p>
+ </div>
+  <div class="pt">
+  <text>Customtkinter</text>
+  <label>Site web</label>
+  <p>Sit vitrine pour entreprises tech KISPY, vente de matériel informatique</p>
+ </div>
+ 
+ <div class="barb">
+  <a href="index.html">Accueil</a>
+  <a href="projet.html">Projet</a>
+  <a href="profil.html">Profil</a>
+  <a href="contact.html">Contact</a>
+ </div>
+
+ 
+ 
+ 
+<script>
+const ipt = document.getElementById('ipt');
+const body = document.getElementById("body");
+const tex = document.getElementById("tex");
+
+ipt.addEventListener('change', () => {
+  if (ipt.checked){
+   const body = document.getElementById("body");
+   const tex = document.getElementById("tex");
+   const te = document.getElementById("te");
+   body.style.background = "rgba(20, 20, 20, 1)";
+   tex.style.color = "white";
+   te.style.color = "white"
+  }
+  
+   
+   
+   else {
+    body.style.background = "white" ;
+    tex.style.color = "black";
+   te.style.color = "black"
+   }
+});
+ 
+</script>
+ 
+</body>
+
+</html>
